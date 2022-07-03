@@ -1,0 +1,62 @@
+# Task 1
+cd "C:\Users\Darya_Rubchenia\EPAM_Python\Session3"
+git init
+
+# Task 2
+git add Session3HW.txt
+git commit -m "added file"
+
+# Task 3
+Created
+
+# Task 4
+git remote add origin https://github.com/daryarubchenia/PythonIntro.git
+git push origin master
+
+# Task 5
+git branch develop
+git checkout develop
+
+# Task 6
+git branch develop2
+git checkout develop2
+
+# Task 7
+Added text
+git add Session3HW.txt
+git commit -m "added first line in text file"
+git push origin develop2
+
+# Task 8
+git clone https://github.com/daryarubchenia/PythonIntro.git "C:\Users\Darya_Rubchenia\EPAM_Python\Session3new"
+
+# Task 9
+git checkout develop
+git pull origin develop
+git branch developnew
+git checkout developnew
+
+# Task 10
+Text is added
+git add Session3HW.txt
+git commit -m "another first line"
+git push origin developnew
+
+# Task 11
+git checkout develop
+
+# Task 12
+git merge origin/develop2
+
+# Task 13
+git merge origin/developnew
+
+# Task 14
+Resolved - new file is correct
+git status
+git add .
+git commit -m "confict is resolved - second text file is correct"
+git push origin develop
+
+
+
